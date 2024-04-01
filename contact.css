@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(Green, yellow);
+}
+h1{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+}
+.contact-form {
+    background-color: #c7f7d8; /* Green color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-input {
+    margin-bottom: 10px;
+}
+.form-input input,
+.form-input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    resize: none;
+}
+.send-button {
+    background-color: #000; /* Black color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .contact-form {
+        max-width: 300px;
+    }
+}
